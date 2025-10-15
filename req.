@@ -1,0 +1,13 @@
+pip install -r requirements.txt
+# Core LangChain packages
+langchain
+langchain-community
+langchain-ollama
+langchain-text-splitters
+
+# Document loading and parsing
+unstructured[all-docs]
+pdfminer.six
+
+# Vectorstore
+chromadb
