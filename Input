@@ -1,0 +1,22 @@
+## INPUT DATA
+store the pdfs here
+
+sturcture:
+ rag-project/
+│
+├── data/                  
+│   ├── raw/               # Original data
+│   └── processed/         # Cleaned data or embeddings
+│
+├── src/
+│   ├── data_loader.py     # Load & preprocess data
+│   ├── retriever.py       # Retrieval logic
+│   ├── generator.py       # Generation logic
+│   └── rag_pipeline.py    # Combine retrieval + generation
+│
+├── notebooks/             
+│   └── exploration.ipynb  # Prototyping
+│
+├── requirements.txt       
+├── README.md              
+└── .gitignore             
